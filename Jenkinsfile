@@ -9,9 +9,11 @@ pipeline {
                 withCredentials([usernamePassword(credentialsId: 'dockerhub', usernameVariable: 'USERNAME', passwordVariable: 'PASSWORD')])            {
 
                 sh """
+                    cd backend-app
                     docker build . -t mmelegy/python-app:v$BUILD_NUMBER
                     docker login -u ${USERNAME} -p ${PASSWORD}
                     docker push mmelegy/python-app:v$BUILD_NUMBER
+                    cd ..
                 """
                 }
               }
