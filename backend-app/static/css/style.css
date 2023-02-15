@@ -3,18 +3,18 @@ span.counter {
 }
 
 span.highlight {
-  background-color: #3f51b5;
+  background-color: #a19f9f;
   color: white;
   padding: 3px;
   border-radius: 2px;
 }
 
 span.highlight#DEV {
-  background-color: #4caf50;
+  background-color: #14095d;
   color: white;
 }
 
 span.highlight#PROD {
-  background-color: #f44336;
+  background-color: #19ab0c;
   color: white;
 }
