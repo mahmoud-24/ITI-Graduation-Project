@@ -7,6 +7,7 @@
 ![home_Page Image](./final-pictures/cred.png)
 
 ## create jenkins pipeline script
+
 ### CI stage: Building the image and Passing the Dockerhub credentials to login then Pushing the new image to Dockerhub
 ### CD stage: Activate Service Account then Connect to Cluster and Deploy the app with kubectl
 ```
