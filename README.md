@@ -2,6 +2,7 @@
 ## Deploy a backend appliciation on kubernetes cluster using CI/CD jenkins pipeline 
 
 ## Video for my project Demo
+https://user-images.githubusercontent.com/62915148/219257098-c6645797-229f-4a1b-a53d-deaa53f9ab6a.mp4
 
 ### Create Jenkins Credentials Configurations:
  - Create a username and password Credential for your Dockerhub account.
